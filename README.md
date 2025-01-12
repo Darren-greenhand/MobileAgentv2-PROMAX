@@ -1,6 +1,3 @@
-![](https://cdn.jsdelivr.net/gh/Darren-greenhand/Darren-greenhand-image@main/img/202501130105050.png)
-## Mobile-Agent-v2: Mobile Device Operation Assistant with Effective Navigation via Multi-Agent Collaboration
-
 基于 [MobileAgent/Mobile-Agent-v2/README.md at main · X-PLUG/MobileAgent](https://github.com/X-PLUG/MobileAgent/blob/main/Mobile-Agent-v2/README.md) 进行拓展和修改
 
 <div align="center">
@@ -61,9 +58,11 @@ Add_infos内容：
 
    
 
+---
 
+![](https://cdn.jsdelivr.net/gh/Darren-greenhand/Darren-greenhand-image@main/img/202501130105050.png)
 
-
+## Mobile-Agent-v2: Mobile Device Operation Assistant with Effective Navigation via Multi-Agent Collaboration
 
 <div align="center">
 	<a href="https://huggingface.co/spaces/junyangwang0410/Mobile-Agent"><img src="https://huggingface.co/datasets/huggingface/badges/raw/main/open-in-hf-spaces-sm-dark.svg" alt="Open in Spaces"></a>
