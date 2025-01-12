@@ -63,10 +63,10 @@ else:
 
 
 # Your GPT-4o API URL
-API_url = "https://api2.aigcbest.top/v1/chat/completions"
+API_url = ""
 
 # Your GPT-4o API Token
-token = "sk-xjclhZEjJm3SpErq117dA25cD87f44Cf84F06d869551002c"
+token = ""
 
 # caption_call_method = "api"
 caption_call_method = "local"

@@ -2,8 +2,17 @@
 
 <div align="center">
 <a href="README.md">English</a> | <a href="README_zh.md">简体中文</a>
-<hr>
 </div>
+
+## 使用方法
+
+按照原本的requirement配个环境，python他没说要求，我试了下最好是>=3.9
+
+修改``download_model.py`里面的 local_dir 模型下载路径，就不会下到用户目录里了，运行下载模型（用API的话不用下qwen）
+
+在 `run.py`里设定参数，包括你自己的abd 命令，要运行的指令，logs的地址，使用API还是本地模型进行caption，使用什么gpt模型进行推理，add_info额外信息，是否反思（建议打开）
+
+运行 `python run.py`，如果没有物理设备，可以看我下面的搞个模拟器投屏
 
 ## 主要功能修改
 
@@ -33,16 +42,19 @@ Add_infos内容：
 
 
 
-- [ ] 无效OCR字符
+- [ ] 无效OCR text/icon
 
-## 其余环境教程
+## 附加工具
 
-1. 如果在无GUI的服务器上运行android模拟器，如何在本地电脑上显示和操作
+1. 如果在无GUI的服务器上运行android emulator，如何在本地电脑上显示和操作，效果如下：
+   ps：ADB KeyBoard一定得打开虚拟按键，让ocr能扫得到
 
-   <img src="https://cdn.jsdelivr.net/gh/Darren-greenhand/Darren-greenhand-image@main/img/202501130105052.png" alt="image-20250113010434301" style="zoom:67%;" />
+   <img src="https://cdn.jsdelivr.net/gh/Darren-greenhand/Darren-greenhand-image@main/img/202501130105052.png" alt="image-20250113010434301" style="zoom: 50%;" />
 
    ```shell
    本地下载scrcpy：https://github.com/Genymobile/scrcpy/releases/tag/v3.1
+   # 若服务器设置端口为5556
+   emulator -avd test_avd -port 5556 -no-window -no-audio
    
    #（可选，清理） 
    ./adb.exe disconnect 
